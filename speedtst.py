@@ -1,12 +1,11 @@
+from functools import wraps
 from time import time
-from time import time
-
 def speed_test(fn):
     @wraps(fn)
     def wrapper(*args,**kwargs):
         start_time = time()
         result = fn(*args,**kwargs)
-        ens_time = time()
+        end_time = time()
         print(f"Time Elapsed: {end_time - start_time}")
         return result
     return wrapper
