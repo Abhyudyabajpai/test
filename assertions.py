@@ -4,3 +4,5 @@ def add(x,y):
 
 print(add(1,3))
 print(add(1,-2))
+
+#for passing the assertions write python -O filename
