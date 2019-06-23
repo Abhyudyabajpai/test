@@ -1,3 +1,4 @@
+import unittest
 class SomeTests(unittest.TestCase):
     def test_for_error(self):
         """error test"""
