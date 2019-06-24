@@ -3,7 +3,7 @@ def add(x,y):
     return x+y
 
 print(add(1,5))
-print(add(1,-2))
+print(add(7,-2))
 
 
 #for passing the assertions write python -O filename
