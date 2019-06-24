@@ -1,0 +1,8 @@
+the is a new line
+File I/O
+
+# in python command line write:
+# c = open("some_text.txt")
+# c.read() {reads everything}
+# c.seek(0) {brings the cursor to the starting position}
+# c.readline() {reads one line at a time}
