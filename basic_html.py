@@ -23,5 +23,7 @@ html = """
 
 soup = BeautifulSoup(html, "html.parser")
 # print(soup.body.div)
-d = soup.select("[data-example]")
-print(d)
+el = soup.select(".special")[0]
+# print(el.get_text())
+print(el.name)
+print(el.attrs)
