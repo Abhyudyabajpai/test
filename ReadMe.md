@@ -1,4 +1,1 @@
-# First git project
-
-## by Abhuydya Bajpai 
-## thank you
+# Python for beginners !
